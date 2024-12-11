@@ -1,0 +1,37 @@
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bPlay{
+    color: white;
+    font-size:larger;
+    margin: 10px;
+    background-color: rgb(255, 81, 159);
+    width: 90px;
+}
+.bStop{
+    color: white;
+    font-size:larger;
+    margin-bottom: 10px;
+    background-color: rgb(76, 180, 12);
+    width: 90px;
+}
+.bRecord{
+    color: white;
+    font-size: medium;
+    margin-bottom: 20px;
+    background-color: blue;
+    width: 90px;
+}
+.abajo{
+
+}

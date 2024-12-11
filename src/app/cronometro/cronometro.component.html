@@ -1,0 +1,14 @@
+<div class="todo">
+    <div class="arriba">
+        <div>{{numero}}</div>
+        <div><button (click)="play()" class="bPlay">PLAY</button></div>
+        <div><button (click)="stop()" class="bStop">STOP</button></div>
+        <div><button (click)="record()" class="bRecord">RECORD</button></div>
+    </div>
+    <div class="abajo">
+        {{listaTiempos}}
+    </div>
+    <div>
+        <button (click)="irMenu()">Menu</button>
+    </div>
+</div>
