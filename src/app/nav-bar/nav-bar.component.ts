@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
+  router: any;
 
+  irSaludo() {
+    this.router.navigate(['/Saludo']);
+  }
+
+  irCrono() {
+    this.router.navigate(['/Cronometro']);
+  }
 }
