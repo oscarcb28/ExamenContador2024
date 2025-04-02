@@ -1,7 +1,7 @@
 <div class="todo">
     <div class="arriba">
-        <div>{{numero}}</div>
-        <div><button (click)="play()" class="bPlay">PLAY</button></div>
+        <div>{{horas}}:{{minutos}}:{{segundos}}</div>
+        <div><button [disabled]="clicked" (click)="play(); clicked = true" class="bPlay">PLAY</button></div>
         <div><button (click)="stop()" class="bStop">STOP</button></div>
         <div><button (click)="record()" class="bRecord">RECORD</button></div>
     </div>
@@ -9,6 +9,6 @@
         {{listaTiempos}}
     </div>
     <div>
-        <button (click)="irMenu()">Menu</button>
+        <button (click)="irMenu()" class="bMenu">Menu</button>
     </div>
 </div>
